@@ -1,0 +1,9 @@
+//scss
+$defaultSize: 20px;
+$className: blue;
+
+p{
+	font-size: #{$defaultSize};
+	&.#{$className} {color: #{$className}}
+}
+
